@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock Paper Scissors Game</h1>
+      <div class="score-card">
+        <div class="score-container">
+          <span class="score-title">Your Score</span>
+          <span class="your-score score">0</span>
+        </div>
+        <h2>Score</h2>
+        <div class="score-container">
+          <span class="score-title">Bot Score</span>
+          <span class="computer-score score">0</span>
+        </div>
+      </div>
+      <div class="choice">
+        <div class="rock" id="rock">
+          <img src="./img/rock.png" id="rock" alt="rock" />
+        </div>
+        <div class="paper" id="paper">
+          <img src="./img/paper.png" id="paper" alt="paper" />
+        </div>
+        <div class="scissor" id="scissor">
+          <img src="./img/scissors.png" id="scissor" alt="scissors" />
+        </div>
+      </div>
+      <button class="reset">Reset Score</button>
+
+      <div class="result-container">
+        <p class="result">You Win</p>
+        <div class="selection">
+          <p>You Picked<span class="your-choice"></span></p>
+          <p>Bot Picked<span class="computer-choice"></span></p>
+        </div>
+        <button class="close">Close</button>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
